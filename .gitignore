@@ -15,6 +15,6 @@
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
-.ionide
+.ionide 
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
