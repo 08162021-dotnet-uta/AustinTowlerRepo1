@@ -1,0 +1,16 @@
+/home/altowler/revature/austin_code/Calculator/bin/Debug/net5.0/Calculator
+/home/altowler/revature/austin_code/Calculator/bin/Debug/net5.0/Calculator.deps.json
+/home/altowler/revature/austin_code/Calculator/bin/Debug/net5.0/Calculator.runtimeconfig.json
+/home/altowler/revature/austin_code/Calculator/bin/Debug/net5.0/Calculator.runtimeconfig.dev.json
+/home/altowler/revature/austin_code/Calculator/bin/Debug/net5.0/Calculator.dll
+/home/altowler/revature/austin_code/Calculator/bin/Debug/net5.0/ref/Calculator.dll
+/home/altowler/revature/austin_code/Calculator/bin/Debug/net5.0/Calculator.pdb
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/Calculator.csproj.AssemblyReference.cache
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfoInputs.cache
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfo.cs
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/Calculator.csproj.CoreCompileInputs.cache
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/Calculator.dll
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/ref/Calculator.dll
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/Calculator.pdb
+/home/altowler/revature/austin_code/Calculator/obj/Debug/net5.0/Calculator.genruntimeconfig.cache
