@@ -15,11 +15,35 @@ namespace StringManipulationChallenge
             string lName;                   // this will hold the users last name.
             string userFullName;            // this will hold the users full name.
 
-            /*
-            *
-            * implement the required code here and within the methods below.
-            *
-            */
+            Console.WriteLine("Enter a test string: ");
+            userInputString = Console.ReadLine();
+
+            //Prints upper and lower case version of users string
+            Console.WriteLine(StringToUpper(userInputString));
+            Console.WriteLine(StringToLower(userInputString));
+
+            //Trims white space from user string
+            Console.WriteLine(StringTrim(userInputString));
+            
+            //Takes user input and creates a sub string
+            Console.WriteLine("At what character do you want to start the substring: ");
+            elementNum = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("How long do you want the substring to be: ");
+            numberLessThanStringLength = Int32.Parse(Console.ReadLine());
+            Console.WriteLine(StringSubstring(userInputString, elementNum, numberLessThanStringLength));
+
+            //Looks for character in string based on user input
+            Console.WriteLine("What char would you like to look for: ");
+            char1 = Char.Parse(Console.ReadLine());
+            Console.WriteLine(SearchChar(userInputString, char1));
+
+            //Concatenates users first and last name into one string
+            Console.WriteLine("Enter first name: ");
+            fName = Console.ReadLine();
+            Console.WriteLine("Enter last name: ");
+            lName = Console.ReadLine();
+            Console.WriteLine(ConcatNames(fName, lName));
+            
         }
 
         /// <summary>
@@ -31,7 +55,7 @@ namespace StringManipulationChallenge
         /// <returns></returns>
         public static string StringToUpper(string usersString)
         {
-            throw new NotImplementedException("StringToUpper method not implemented.");
+            return usersString.ToUpper();
         }
 
         /// <summary>
@@ -43,7 +67,7 @@ namespace StringManipulationChallenge
         /// <returns></returns>       
         public static string StringToLower(string usersString)
         {
-            throw new NotImplementedException("StringToUpper method not implemented.");
+            return usersString.ToLower();
         }
 
         /// <summary>
@@ -56,7 +80,7 @@ namespace StringManipulationChallenge
         /// <returns></returns>
         public static string StringTrim(string usersStringWithWhiteSpace)
         {
-            throw new NotImplementedException("StringTrim method not implemented.");
+            return usersStringWithWhiteSpace.Trim();
         }
 
         /// <summary>
@@ -71,7 +95,7 @@ namespace StringManipulationChallenge
         /// <returns></returns>
         public static string StringSubstring(string x, int firstElement, int lengthOfSubsring)
         {
-            throw new NotImplementedException("StringSubstring method not implemented.");
+            return x.Substring(firstElement, lengthOfSubsring);
         }
 
         /// <summary>
@@ -86,7 +110,7 @@ namespace StringManipulationChallenge
         /// <returns></returns>
         public static int SearchChar(string userInputString, char charUserWants)
         {
-            throw new NotImplementedException("SearchChar method not implemented.");
+            return userInputString.IndexOf(charUserWants);
         }
 
         /// <summary>
@@ -101,7 +125,7 @@ namespace StringManipulationChallenge
         /// <returns></returns>
         public static string ConcatNames(string fName, string lName)
         {
-            throw new NotImplementedException("ConcatNames method not implemented.");
+            return fName + " " + lName;
         }
     }//end of program
 }
