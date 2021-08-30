@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Xml;
 
 namespace Project0.StoreApplication.Domain.Models
 {
@@ -6,15 +8,14 @@ namespace Project0.StoreApplication.Domain.Models
     {
         public string Name { get; set;}
 
-        public Store(string name)
+        public Store()
         {
-            this.Name = name;
+            Name = "Test Store";
         }
 
         public override string ToString()
         {
             return  Name ?? DateTime.Now.ToLongDateString();
-            
         }
     }
 }

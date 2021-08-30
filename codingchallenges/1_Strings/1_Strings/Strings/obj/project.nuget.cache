@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "h5xs1RFOhw5+DowHECe5E0M3svXAbaAKRYw0AAmycstSdCCqjcS0XrINlmqkpyir0nVPxKkdZACI9k41lWrgMg==",
+  "success": true,
+  "projectFilePath": "/home/altowler/revature/08162021-batch-repo/codingchallenges/1_Strings/1_Strings/Strings/Strings.csproj",
+  "expectedPackageFiles": [
+    "/home/altowler/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/altowler/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/altowler/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.18/microsoft.netcore.app.host.linux-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
