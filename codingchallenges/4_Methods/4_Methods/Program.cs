@@ -1,4 +1,7 @@
 ﻿using System;
+using System.CodeDom;
+using System.Collections;
+using System.IO;
 
 namespace _4_MethodsChallenge
 {
@@ -21,29 +24,57 @@ namespace _4_MethodsChallenge
 
         public static string GetName()
         {
-            throw new NotImplementedException("GetName() is not implemented yet0");
+            string name = Console.ReadLine();
+            return name;
+
         }
 
         public static string GreetFriend(string name)
         {
-            throw new NotImplementedException("GreetFriend() is not implemented yet");
+            return $"Hello, {name}. You are my friend.";
         }
 
         public static double GetNumber()
         {
-            throw new NotImplementedException("GetNumber() is not implemented yet");
+            Console.WriteLine("Enter a number: ");
+            double inputNum;
+            bool isNum = double.TryParse(Console.ReadLine(), out inputNum);
 
+            if(!isNum)
+            {
+                throw new FormatException("Invalid input");
+            }
+            else { return inputNum; }
         }
 
         public static int GetAction()
         {
-            throw new NotImplementedException("GetAction() is not implemented yet");
+            Console.WriteLine("[1] ADD\n[2] \nSUBTRACT[3] \nMULTIPLY \n[4] DIVIDE ");
+            int choice = int.Parse(Console.ReadLine());
+            return choice;
 
         }
 
         public static double DoAction(double x, double y, int action)
         {
-            throw new NotImplementedException("DoAction() is not implemented yet");
+            double result;
+            switch(action)
+            {
+                case 1:
+                    result = x + y;
+                    return result;
+                case 2:
+                    result = x - y;
+                    return result;
+                case 3:
+                    result = x * y;
+                    return result;
+                case 4:
+                    result = x / y;
+                    return result;
+                default:
+                    throw new FormatException("Something went wrong");
+            }
         }
     }
 }

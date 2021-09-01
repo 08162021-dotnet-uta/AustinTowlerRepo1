@@ -1,4 +1,6 @@
 using System;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace _3_DataTypeAndVariablesChallenge
 {
@@ -6,11 +8,18 @@ namespace _3_DataTypeAndVariablesChallenge
     {
         public static void Main(string[] args)
         {
-            //
-            //
-            // Insert code here.
-            //
-            //
+            string numString = "134654";
+            string failNumString = "135a546";
+            int testInt = 250;
+            double testDouble = 32.02;
+            float testFloat = 32.123f;
+
+            Console.WriteLine(PrintValues(testInt));
+            Console.WriteLine(PrintValues(testDouble));
+            Console.WriteLine(PrintValues(testFloat));
+
+            Console.WriteLine(StringToInt(numString));
+            Console.WriteLine(StringToInt(failNumString));
         }
 
         /// <summary>
@@ -25,7 +34,20 @@ namespace _3_DataTypeAndVariablesChallenge
         /// <returns></returns>
         public static string PrintValues(object obj)
         {
-            throw new NotImplementedException($"PrintValues() has not been implemented");
+            switch(obj)
+            {
+                case int aInt:
+                    return "Data type => int";
+
+                case double aDouble:
+                    return "Data type => double";
+
+                case float aFlout:
+                    return "Data type => float";
+
+                default:
+                    return "No type found";
+            }
         }
 
         /// <summary>
@@ -39,8 +61,19 @@ namespace _3_DataTypeAndVariablesChallenge
         /// <returns></returns>
         public static int? StringToInt(string numString)
         {
-            throw new NotImplementedException($"StringToInt() has not been implemented");
+            int result;
+            bool isValid;
 
+            isValid = int.TryParse(numString, out result);
+            if(!isValid)
+            {
+                Console.WriteLine("cannot be converted");
+                return null;
+            }
+            else
+            {
+                return result;
+            }
         }
     }// end of class
 }// End of Namespace

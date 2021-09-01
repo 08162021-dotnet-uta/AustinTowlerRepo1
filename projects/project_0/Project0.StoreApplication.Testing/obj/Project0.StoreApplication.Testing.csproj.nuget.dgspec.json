@@ -1,0 +1,309 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Testing\\Project0.StoreApplication.Testing.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Client\\Project0.StoreApplication.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Client\\Project0.StoreApplication.Client.csproj",
+        "projectName": "Project0.StoreApplication.Client",
+        "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Client\\Project0.StoreApplication.Client.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj"
+              },
+              "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Storage\\Project0.StoreApplication.Storage.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Storage\\Project0.StoreApplication.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "serilog.sinks.console": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "serilog.sinks.file": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj",
+        "projectName": "Project0.StoreApplication.Domain",
+        "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Storage\\Project0.StoreApplication.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Storage\\Project0.StoreApplication.Storage.csproj",
+        "projectName": "Project0.StoreApplication.Storage",
+        "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Storage\\Project0.StoreApplication.Storage.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Testing\\Project0.StoreApplication.Testing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Testing\\Project0.StoreApplication.Testing.csproj",
+        "projectName": "Project0.StoreApplication.Testing",
+        "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Testing\\Project0.StoreApplication.Testing.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Testing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Client\\Project0.StoreApplication.Client.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Client\\Project0.StoreApplication.Client.csproj"
+              },
+              "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Domain\\Project0.StoreApplication.Domain.csproj"
+              },
+              "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Storage\\Project0.StoreApplication.Storage.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\AustinTowlerRepo1\\projects\\project_0\\Project0.StoreApplication.Storage\\Project0.StoreApplication.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
